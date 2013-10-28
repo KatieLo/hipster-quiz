@@ -1,2 +1,1 @@
-hipsterQuiz
-===========
+This is my third project. It is a quiz that has one form, with radio button groups in field sets. It uses jQuery to submit the form and display the result to the screen. 
