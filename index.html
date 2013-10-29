@@ -3,16 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hipster Quiz</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
+	<div class="line">
+	</div>
 	<div class="wrap" id="quizpage">
 		<header>
 			<h1>Are you a Cape Town hipster?</h1>
-			<h3>Take this quiz to find out how much of a Cape Town hipster you are!<h3>
+			<h3>Take this quiz to find out how much of a Cape Town hipster you are.<h3>
 		</header>
 		<div class="container">
 			<form>
@@ -39,7 +42,7 @@
 				</div>
 				<div class="questionbox">
 					<fieldset class="questionradios">
-						<legend>2.How do you get around?</legend>
+						<legend>2. How do you get around?</legend>
 						<label for="driveradio">
 							<input type="radio" name="q2" value=0>
 							Car.
@@ -60,7 +63,7 @@
 				</div>
 				<div class="questionbox">
 					<fieldset class="questionradios">
-						<legend>3.When was your last cigarette?</legend>
+						<legend>3. When was your last cigarette?</legend>
 						<label for="nowradio">
 							<input type="radio" name="q3" value=1>
 							I'm smoking one right now!
@@ -109,7 +112,7 @@
 						</label>
 						<label for="parentbank">
 							<input type="radio" name="q5" value=2>
-							I am not defined by my parent's bank account.
+							I am not defined by my parents' bank account.
 						</label>
 						<label for="vulgarradio">
 							<input type="radio" name="q5" value=0>
@@ -179,7 +182,7 @@
 							Cuttig edge, cool or hip.
 						</label>
 						<label for="knockoutradio">
-							<input type="radio" name="q7" value=1>
+							<input type="radio" name="q8" value=1>
 							To knock someone out.
 						</label>
 					</fieldset>
@@ -194,12 +197,15 @@
 	<div class="wrap" id="scorePage">
 		<div class="score" id="not">
 			You ain't no hipster! Go back to the bank!
+			<img src="img/backToBank.jpeg">
 		</div>
 		<div class="score" id="maybe">
-			You definitely display hispetr sympathies.
+			Ooh. It's a close call, man. 
+			<img src="img/ooh.gif">
 		</div>
 		<div class="score" id="fully">
-			So hipster, your wayfarers are melting!
+			You're so hipster, your wayfarers are melting!
+			<img src="img/hipsterHigh5.jpeg">
 		</div>
 	</div>
 </body>
