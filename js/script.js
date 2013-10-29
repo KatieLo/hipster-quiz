@@ -2,11 +2,11 @@ $( document ).ready(function() {
 
 
 $("form").submit(function(event){
-	window.scrollTo(0, 0);
+	window.scrollTo(0,0)
 
 // Get value of each radio button
 var hipsterScore = 0;
-$("imput:radio:checked").each(function() {
+$("input:radio:checked").each(function() {
 	hipsterScore = hipsterScore + parseInt($(this).val());
 });
 
